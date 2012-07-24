@@ -1,0 +1,12 @@
+<mt:setvarblock name="js_include" append="1">
+<mt:if name="optimize_ui">
+<script type="text/javascript" src="<mt:Var name="static_uri" />/plugins/CKEditor/ckeditor/ckeditor.js"></script>
+<mt:else>
+<script type="text/javascript" src="<mt:Var name="static_uri" />/plugins/CKEditor/ckeditor/ckeditor_source.js"></script>
+</mt:if>
+<script type="text/javascript" src="<mt:Var name="static_uri" />/plugins/CKEditor/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript" src="<mt:Var name="static_uri" />/plugins/CKEditor/lib/js/adapter.js"></script>
+<script type="text/javascript">
+jQuery.extend(MT.Editor.CKEditor.config, <mt:Var name="config" to_json="1" />);
+</script>
+</mt:setvarblock>

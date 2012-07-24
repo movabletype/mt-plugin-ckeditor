@@ -1,0 +1,14 @@
+id: CKEditor
+name: CKEditor
+author_link: http://www.movabletype.org/
+author_name: Six Apart, Ltd.
+description: <MT_TRANS phrase="Enable to use the CKEditor as a WYSIWYG editor.">
+version: 1.00
+l10n_lexicon:
+    ja:
+        Enable to use the CKEditor as a WYSIWYG editor.: "WYSIWYG エディタとして CKEditor を利用可能にします。"
+
+editors:
+    ckeditor:
+        label: CKEditor
+        template: editor.tmpl
